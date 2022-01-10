@@ -2,8 +2,8 @@
 
 ## **Citation**
 
-Baoshan Ma, Bingjie Chai, Jishuang Qi, Heng Dong, Di Li, Shuxin Liu, Fengju Song.Diagnostic classification of cancers using DNA methylation of paracancerous tissues (Under review)
-
+Baoshan Ma, Bingjie Chai, Jishuang Qi, Heng Dong, Tong Xiong, Yi Gong, Di Li, Shuxin Liu, Fengju Song.Diagnostic classification of cancers using DNA methylation of paracancerous tissues (Under review)
+,
 ## The datasets of the program
 The data used in this research are collected from The Cancer Genome Atlas(TCGA) project and that are publicly available at https://portal.gdc.cancer.gov.
 
