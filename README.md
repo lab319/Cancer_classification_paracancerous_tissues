@@ -19,6 +19,6 @@ python 3.7 cersion
 DNA methylation data used in this research were collected from The Cancer Genome Atlas(TCGA) project and that are publicly available at https://portal.gdc.cancer.gov. The 'input data' file contains 'data.txt' and 'label.txt'. Rows and columns of the 'data.txt' correspond to samples and CpG sites, respectively.
 
 ## 4.How to use our program and obtain output metrics
-1.machine_learning_models:six machine learning models are utilized to classify cancer stage(early or late) of KIRC patients based on DNA methylation data of paracancerous tissues.
+1.In the 'input data' folder, you need to upload a txt file of DNA methylation data of paracancerous tissues and name it 'data.txt'. Besides, you need upload a txt file of sample label(early stage or late stage) and name it 'label.txt'. For 'data.txt', we recommend that you can set each row as a sample and each column as a CpG site.
 
-2.tumor_specific_multiclass_classifier:we build a CpG-based tumor specific classifier using XGBoost algorithm that can accurately classify cancer type.The files in the repository can be uesd to construct tumor specific classifier based on TCGA datasets and validate the classifier developed using TCGA dataset on an independent GEO dataset. 
+2.Now, you can run the model in the 
