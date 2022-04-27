@@ -19,10 +19,10 @@ python 3.7 version
 DNA methylation data used in this research were collected from The Cancer Genome Atlas(TCGA) project and that are publicly available at https://portal.gdc.cancer.gov. The 'input data' file contains 'data.txt' and 'label.txt'. Rows and columns of the 'data.txt' correspond to samples and CpG sites, respectively.
 
 ## 4.How to use our program and obtain output metrics
-(1) In the 'input data' folder, you need to upload a txt file of DNA methylation data of paracancerous tissues and name it 'data.txt'. Besides, you need upload a txt    file of sample label(early stage or late stage) and name it 'label.txt'. For 'data.txt', we recommend that you can set each row as a sample and each column as a      CpG site.
+(1) In the 'input data' folder, you need to upload a txt file of DNA methylation data of paracancerous tissues and name it 'data.txt'. Besides, you need upload a txt    file of sample label(early stage or late stage) and name it 'label.txt'. For 'data.txt', we recommend that you can set each row as a sample and each column as a      CpG site. In the 'multiclass input data' folder, you need provide DNA methylation data of paracancerous tissues from some types of cancer and integrate them.           Rows and columns of the data correspond to samples and CpG sites, respectively. Besides, you need provide the label of the corresponding cancers to realize multi     classification of cancer types.
 
 (2) Now, you can run the model in the 'machine_learning_models' folder. For each model, you need to input the data and label in turn. 
 
 (3) After the program is executed, you can obtain evaluation metrics of the model.
 
-(4) In the 'tumor_specific_multiclass_classifier' folder, you need provide DNA methylation data of paracancerous tissues from some types of cancer and integrate them.    Rows and columns of the data correspond to samples and CpG sites, respectively. Besides, you need provide the label of the corresponding cancers to realize multi       classification of cancer types.
+(4) In the 'tumor_specific_multiclass_classifier' folder, you can 
