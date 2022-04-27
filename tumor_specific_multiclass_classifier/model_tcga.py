@@ -26,9 +26,9 @@ from sklearn.preprocessing import label_binarize
 from xgboost.sklearn import XGBClassifier
 
 
-data = pd.read_table("E:/cbj/three-diseases/classification/multiclassification/second/tcgadata.txt")
+data = pd.read_table("tcga.txt")
 data.columns = [str(i) for i in range(data.shape[1])]
-label = pd.read_table("E:/cbj/three-diseases/classification/multiclassification/second/tcgalabel.txt").values.reshape([-1, ])
+label = pd.read_table("tcga_label.txt").values.reshape([-1, ])
 
 X_train,X_test,y_train,y_test = train_test_split(data,label,test_size=0.2,random_state = 123)
     
