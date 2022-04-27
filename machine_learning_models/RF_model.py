@@ -20,12 +20,12 @@ import pandas as pd
 from scipy import interp
 import openpyxl
 
-file_1=open("KIRC_methy.txt")
+file_1=open("data.txt")
 file_1.readline()
 x=np.loadtxt(file_1)
 file_1.close()
 
-file_4=open("KIRC_label.txt")
+file_4=open("label.txt")
 file_4.readline()
 y=np.loadtxt(file_4)
 file_4.close()
