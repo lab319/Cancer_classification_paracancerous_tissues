@@ -120,10 +120,10 @@ params_all=[]
 pre_values=[]
 pre_labels=[]
 
-data = pd.read_table("data.txt")
+data = pd.read_table("input_data/data.txt")
 data.columns = [str(i) for i in range(data.shape[1])]
 
-label = pd.read_table("label.txt").values.reshape([-1, ])
+label = pd.read_table("input_data/label.txt").values.reshape([-1, ])
 
 kf = KFold(n_splits=5, shuffle=True, random_state=5)
 y_valid_pred_total = np.zeros(data.shape[0])
