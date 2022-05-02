@@ -17,11 +17,11 @@ from itertools import cycle
 from sklearn.metrics import accuracy_score, roc_auc_score
 
 
-tcgadata = pd.read_table("tcga.txt")
-tcgalabel = pd.read_table("tcga_label.txt").values.reshape([-1, ])
+tcgadata = pd.read_table("multiclass_input_data/tcgadata.txt")
+tcgalabel = pd.read_table("multiclass_input_data/tcgalabel.txt").values.reshape([-1, ])
 
-geodata = pd.read_table("geo.txt")
-geolabel = pd.read_table("geo_label.txt").values.reshape([-1, ])
+geodata = pd.read_table("multiclass_input_data/geo.txt")
+geolabel = pd.read_table("multiclass_input_data/geo_label.txt").values.reshape([-1, ])
 
 n_classes = 3
 geo_one_hot = label_binarize(geolabel, np.arange(3))
