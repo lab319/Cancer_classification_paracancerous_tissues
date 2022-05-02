@@ -31,12 +31,12 @@ tpr
 '''
 
 
-file_1=open("data.txt")
+file_1=open("input_data/data.txt")
 file_1.readline()
 x=np.loadtxt(file_1)
 file_1.close()
 
-file_4=open("label.txt")
+file_4=open("input_data/label.txt")
 file_4.readline()
 y=np.loadtxt(file_4)
 file_4.close()
