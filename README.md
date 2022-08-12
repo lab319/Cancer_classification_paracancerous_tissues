@@ -3,11 +3,11 @@
 ## Contact:
 Baoshan Ma(mabaoshan@dlmu.edu.cn)
 
-Bingjie Chai(qfcbj0612@163.com)
+Xiaoyu Hou(1113276186@qq.com)
 
 ## Citation
 
-Baoshan Ma, Bingjie Chai, Heng Dong, Jishuang Qi, Pengcheng Wang, Tong Xiong, Yi Gong, Di Li, Shuxin Liu, Fengju Song.Diagnostic classification of cancers using DNA methylation of paracancerous tissues (Under review)
+Xiaoyu Hou, Baoshan Ma, Bingjie Chai, Heng Dong, Jishuang Qi, Pengcheng Wang, Tong Xiong, Yi Gong, Di Li, Shuxin Liu, Fengju Song.Diagnostic classification of cancers using DNA methylation of paracancerous tissues (Under review)
 
 ## 1.Introduction
 We provided a python program to build a classification model for separating early stage and late stage cancers. The classification model can then be applied to a new dataset. If you find the program useful, please cite the above reference. 
